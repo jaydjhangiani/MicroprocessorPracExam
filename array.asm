@@ -1,4 +1,4 @@
-;combination of q12,q14,q24,q23
+;combination of q12,q14,q23,q27
 ;array size is 10
 data segment
 	msg db,10,13,"Enter Choice : $"
