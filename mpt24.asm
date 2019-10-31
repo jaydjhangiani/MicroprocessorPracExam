@@ -1,10 +1,10 @@
-;q17 q24
+;q24
 data segment
 
 msg1 db 10,13,"Enter first number : $"
 msg2 db 10,13,"Enter second number : $"
 msg3 db 10,13,"LCM : $"
-msg4 db 10,13,"GCD : $"
+
 
 data ends
 code segment
