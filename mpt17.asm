@@ -51,16 +51,6 @@ start:  mov ax,data
 	int 21h
 		
 		
-		
-	ipconvert proc
-	cmp al,41h
-	jc lab0
-	sub al,07h
-	lab0:
-	sub al,30h
-	ret
-	endp
-		
 	displaymsg proc
 	mov ah,09
 	int 21h
